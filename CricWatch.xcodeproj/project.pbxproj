@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EB04AAB29853094005C816F /* CricWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8EB04AAA29853094005C816F /* CricWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8EB04AB029853095005C816F /* CricWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB04AAF29853095005C816F /* CricWatchApp.swift */; };
+		8EB04AB229853095005C816F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB04AB129853095005C816F /* ContentView.swift */; };
+		8EB04AB429853096005C816F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB04AB329853096005C816F /* Assets.xcassets */; };
+		8EB04AB729853096005C816F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB04AB629853096005C816F /* Preview Assets.xcassets */; };
+		8EB04AC129853096005C816F /* CricWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB04AC029853096005C816F /* CricWatch_Watch_AppTests.swift */; };
+		8EB04ACB29853096005C816F /* CricWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB04ACA29853096005C816F /* CricWatch_Watch_AppUITests.swift */; };
+		8EB04ACD29853096005C816F /* CricWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB04ACC29853096005C816F /* CricWatch_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EB04AAC29853094005C816F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB04A9E29853094005C816F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB04AA929853094005C816F;
+			remoteInfo = "CricWatch Watch App";
+		};
+		8EB04ABD29853096005C816F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB04A9E29853094005C816F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB04AA929853094005C816F;
+			remoteInfo = "CricWatch Watch App";
+		};
+		8EB04AC729853096005C816F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB04A9E29853094005C816F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB04AA929853094005C816F;
+			remoteInfo = "CricWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8EB04AD329853096005C816F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8EB04AAB29853094005C816F /* CricWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8EB04AA429853094005C816F /* CricWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB04AAA29853094005C816F /* CricWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CricWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB04AAF29853095005C816F /* CricWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricWatchApp.swift; sourceTree = "<group>"; };
+		8EB04AB129853095005C816F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EB04AB329853096005C816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EB04AB629853096005C816F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EB04ABC29853096005C816F /* CricWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CricWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB04AC029853096005C816F /* CricWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		8EB04AC629853096005C816F /* CricWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CricWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB04ACA29853096005C816F /* CricWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		8EB04ACC29853096005C816F /* CricWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EB04AA729853094005C816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB04AB929853096005C816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB04AC329853096005C816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EB04A9D29853094005C816F = {
+			isa = PBXGroup;
+			children = (
+				8EB04AAE29853094005C816F /* CricWatch Watch App */,
+				8EB04ABF29853096005C816F /* CricWatch Watch AppTests */,
+				8EB04AC929853096005C816F /* CricWatch Watch AppUITests */,
+				8EB04AA529853094005C816F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EB04AA529853094005C816F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB04AA429853094005C816F /* CricWatch.app */,
+				8EB04AAA29853094005C816F /* CricWatch Watch App.app */,
+				8EB04ABC29853096005C816F /* CricWatch Watch AppTests.xctest */,
+				8EB04AC629853096005C816F /* CricWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB04AAE29853094005C816F /* CricWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8EB04AAF29853095005C816F /* CricWatchApp.swift */,
+				8EB04AB129853095005C816F /* ContentView.swift */,
+				8EB04AB329853096005C816F /* Assets.xcassets */,
+				8EB04AB529853096005C816F /* Preview Content */,
+			);
+			path = "CricWatch Watch App";
+			sourceTree = "<group>";
+		};
+		8EB04AB529853096005C816F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EB04AB629853096005C816F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EB04ABF29853096005C816F /* CricWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EB04AC029853096005C816F /* CricWatch_Watch_AppTests.swift */,
+			);
+			path = "CricWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8EB04AC929853096005C816F /* CricWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EB04ACA29853096005C816F /* CricWatch_Watch_AppUITests.swift */,
+				8EB04ACC29853096005C816F /* CricWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "CricWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EB04AA329853094005C816F /* CricWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB04AD429853096005C816F /* Build configuration list for PBXNativeTarget "CricWatch" */;
+			buildPhases = (
+				8EB04AA229853094005C816F /* Resources */,
+				8EB04AD329853096005C816F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB04AAD29853094005C816F /* PBXTargetDependency */,
+			);
+			name = CricWatch;
+			productName = CricWatch;
+			productReference = 8EB04AA429853094005C816F /* CricWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8EB04AA929853094005C816F /* CricWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB04AD029853096005C816F /* Build configuration list for PBXNativeTarget "CricWatch Watch App" */;
+			buildPhases = (
+				8EB04AA629853094005C816F /* Sources */,
+				8EB04AA729853094005C816F /* Frameworks */,
+				8EB04AA829853094005C816F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CricWatch Watch App";
+			productName = "CricWatch Watch App";
+			productReference = 8EB04AAA29853094005C816F /* CricWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EB04ABB29853096005C816F /* CricWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB04AD729853096005C816F /* Build configuration list for PBXNativeTarget "CricWatch Watch AppTests" */;
+			buildPhases = (
+				8EB04AB829853096005C816F /* Sources */,
+				8EB04AB929853096005C816F /* Frameworks */,
+				8EB04ABA29853096005C816F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB04ABE29853096005C816F /* PBXTargetDependency */,
+			);
+			name = "CricWatch Watch AppTests";
+			productName = "CricWatch Watch AppTests";
+			productReference = 8EB04ABC29853096005C816F /* CricWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EB04AC529853096005C816F /* CricWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB04ADA29853096005C816F /* Build configuration list for PBXNativeTarget "CricWatch Watch AppUITests" */;
+			buildPhases = (
+				8EB04AC229853096005C816F /* Sources */,
+				8EB04AC329853096005C816F /* Frameworks */,
+				8EB04AC429853096005C816F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB04AC829853096005C816F /* PBXTargetDependency */,
+			);
+			name = "CricWatch Watch AppUITests";
+			productName = "CricWatch Watch AppUITests";
+			productReference = 8EB04AC629853096005C816F /* CricWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EB04A9E29853094005C816F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8EB04AA329853094005C816F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8EB04AA929853094005C816F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8EB04ABB29853096005C816F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8EB04AA929853094005C816F;
+					};
+					8EB04AC529853096005C816F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8EB04AA929853094005C816F;
+					};
+				};
+			};
+			buildConfigurationList = 8EB04AA129853094005C816F /* Build configuration list for PBXProject "CricWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EB04A9D29853094005C816F;
+			productRefGroup = 8EB04AA529853094005C816F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EB04AA329853094005C816F /* CricWatch */,
+				8EB04AA929853094005C816F /* CricWatch Watch App */,
+				8EB04ABB29853096005C816F /* CricWatch Watch AppTests */,
+				8EB04AC529853096005C816F /* CricWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EB04AA229853094005C816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB04AA829853094005C816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB04AB729853096005C816F /* Preview Assets.xcassets in Resources */,
+				8EB04AB429853096005C816F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB04ABA29853096005C816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB04AC429853096005C816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EB04AA629853094005C816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB04AB229853095005C816F /* ContentView.swift in Sources */,
+				8EB04AB029853095005C816F /* CricWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB04AB829853096005C816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB04AC129853096005C816F /* CricWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB04AC229853096005C816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB04ACB29853096005C816F /* CricWatch_Watch_AppUITests.swift in Sources */,
+				8EB04ACD29853096005C816F /* CricWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EB04AAD29853094005C816F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB04AA929853094005C816F /* CricWatch Watch App */;
+			targetProxy = 8EB04AAC29853094005C816F /* PBXContainerItemProxy */;
+		};
+		8EB04ABE29853096005C816F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB04AA929853094005C816F /* CricWatch Watch App */;
+			targetProxy = 8EB04ABD29853096005C816F /* PBXContainerItemProxy */;
+		};
+		8EB04AC829853096005C816F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB04AA929853094005C816F /* CricWatch Watch App */;
+			targetProxy = 8EB04AC729853096005C816F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EB04ACE29853096005C816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EB04ACF29853096005C816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8EB04AD129853096005C816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CricWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YTD58K2T76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CricWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = musa.CricWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		8EB04AD229853096005C816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CricWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YTD58K2T76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CricWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = musa.CricWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		8EB04AD529853096005C816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTD58K2T76;
+				INFOPLIST_KEY_CFBundleDisplayName = CricWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = musa.CricWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8EB04AD629853096005C816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTD58K2T76;
+				INFOPLIST_KEY_CFBundleDisplayName = CricWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = musa.CricWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EB04AD829853096005C816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTD58K2T76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "musa.CricWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CricWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		8EB04AD929853096005C816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTD58K2T76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "musa.CricWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CricWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		8EB04ADB29853096005C816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTD58K2T76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "musa.CricWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CricWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		8EB04ADC29853096005C816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTD58K2T76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "musa.CricWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CricWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EB04AA129853094005C816F /* Build configuration list for PBXProject "CricWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB04ACE29853096005C816F /* Debug */,
+				8EB04ACF29853096005C816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB04AD029853096005C816F /* Build configuration list for PBXNativeTarget "CricWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB04AD129853096005C816F /* Debug */,
+				8EB04AD229853096005C816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB04AD429853096005C816F /* Build configuration list for PBXNativeTarget "CricWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB04AD529853096005C816F /* Debug */,
+				8EB04AD629853096005C816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB04AD729853096005C816F /* Build configuration list for PBXNativeTarget "CricWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB04AD829853096005C816F /* Debug */,
+				8EB04AD929853096005C816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB04ADA29853096005C816F /* Build configuration list for PBXNativeTarget "CricWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB04ADB29853096005C816F /* Debug */,
+				8EB04ADC29853096005C816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EB04A9E29853094005C816F /* Project object */;
+}
