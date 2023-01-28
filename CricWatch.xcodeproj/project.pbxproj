@@ -11,7 +11,6 @@
 		8EB04AB029853095005C816F /* CricWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB04AAF29853095005C816F /* CricWatchApp.swift */; };
 		8EB04AB229853095005C816F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB04AB129853095005C816F /* ContentView.swift */; };
 		8EB04AB429853096005C816F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB04AB329853096005C816F /* Assets.xcassets */; };
-		8EB04AB729853096005C816F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB04AB629853096005C816F /* Preview Assets.xcassets */; };
 		8EB04AC129853096005C816F /* CricWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB04AC029853096005C816F /* CricWatch_Watch_AppTests.swift */; };
 		8EB04ACB29853096005C816F /* CricWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB04ACA29853096005C816F /* CricWatch_Watch_AppUITests.swift */; };
 		8EB04ACD29853096005C816F /* CricWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB04ACC29853096005C816F /* CricWatch_Watch_AppUITestsLaunchTests.swift */; };
@@ -61,7 +60,6 @@
 		8EB04AAF29853095005C816F /* CricWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricWatchApp.swift; sourceTree = "<group>"; };
 		8EB04AB129853095005C816F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EB04AB329853096005C816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8EB04AB629853096005C816F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EB04ABC29853096005C816F /* CricWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CricWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB04AC029853096005C816F /* CricWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
 		8EB04AC629853096005C816F /* CricWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CricWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,17 +119,8 @@
 				8EB04AAF29853095005C816F /* CricWatchApp.swift */,
 				8EB04AB129853095005C816F /* ContentView.swift */,
 				8EB04AB329853096005C816F /* Assets.xcassets */,
-				8EB04AB529853096005C816F /* Preview Content */,
 			);
 			path = "CricWatch Watch App";
-			sourceTree = "<group>";
-		};
-		8EB04AB529853096005C816F /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8EB04AB629853096005C816F /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8EB04ABF29853096005C816F /* CricWatch Watch AppTests */ = {
@@ -283,7 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB04AB729853096005C816F /* Preview Assets.xcassets in Resources */,
 				8EB04AB429853096005C816F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

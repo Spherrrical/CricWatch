@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-import UIKit
-import WatchKit
 
 struct ContentView: View {
     
@@ -18,11 +16,10 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            
             HStack {
                 Text("Runs: \(runs)")
                     .font(.headline)
-                    .padding(.top, 6.5)
+                    .padding(.top, 2.5)
             }
             
             Spacer()
@@ -30,11 +27,11 @@ struct ContentView: View {
             HStack {
                 Text("Target: \(target)")
                     .font(.footnote)
-                    .foregroundColor(Color.purple)
+                    .foregroundColor(Color(red: 0.39215686274509803, green: 0.8274509803921568, blue: 1.0))
                     .padding(.vertical, 2.0)
             }
             
-            
+                
             HStack {
                 Button(action: {
                     self.runs -= 1
@@ -55,6 +52,9 @@ struct ContentView: View {
                 
                 Button(action: {
                     self.runs += 1
+                    if runs > target {
+                        self.target = 0
+                    }
                 }) {
                     Text("+")
                         .foregroundColor(.green)
@@ -104,7 +104,7 @@ struct ContentView: View {
             Spacer()
             Spacer()
             
-            Text("By Musa | v1.2")
+            Text("By Musa | v1.0")
                 .font(.footnote)
                 .fontWeight(.thin)
                 .lineLimit(8)
